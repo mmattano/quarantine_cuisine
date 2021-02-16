@@ -7,12 +7,12 @@ sidebar:
 toc: true
 ---
 
-[Veggie Thai Curry](recipes/curries/veggie_thai_curry)
+[Veggie Thai Curry](curries/veggie_thai_curry)
 
-[Palak Paneer](recipes/curries/palak_paneer)
+[Palak Paneer](curries/palak_paneer)
 
-[Vegan Butter *Chicken](recipes/curries/vegan_butter_chicken)
+[Vegan Butter *Chicken](curries/vegan_butter_chicken)
 
-[Japanese Curry - simple](recipes/curries/japanese_curry_simple)
+[Japanese Curry - simple](curries/japanese_curry_simple)
 
-[Japanese Curry - complex](recipes/curries/japanese_curry_complex)
+[Japanese Curry - complex](curries/japanese_curry_complex)
