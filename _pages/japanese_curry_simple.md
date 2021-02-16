@@ -19,10 +19,7 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-- 
-<script type="text/javascript" src="http://cdn.divido.com/widget/dist/divido.calculator.js"></script>
-
- things
+- <% 1 + 1 %> things
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
