@@ -19,7 +19,7 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-- ```Python3
+- ```python
 1 + 1 # Adding two numbers
 
 ``` things
