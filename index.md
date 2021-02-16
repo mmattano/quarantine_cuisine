@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Quarantine Cuisine - a collection
 
-You can use the [editor on GitHub](https://github.com/mmattano/quarantine_cuisine/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Matthias Mattanovich 2020/2021
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Some of these recipes were taken from other sources; I try to reference all of them.
+It’s a work in progress and will be updated irregularly.
+Everything is vegetarian and I’m trying to suggest suitable vegan alternatives as well.
+I’m also working on a cost calculator atm that could be added on a website (or an excel sheet).
 
-### Markdown
+Feel free to submit suggestions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If you don’t like the recipes, eat shit instead :D
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mmattano/quarantine_cuisine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Support or Contact
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you have some nice recipe you think I should try, please contact me (not gonna give you my info though haha)
