@@ -19,9 +19,7 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-- <<engine='python', engine.path='python3'>>=
-1 + 1
-@
+- <script type="text/javascript" src="http://cdn.divido.com/widget/dist/divido.calculator.js"></script>
  things
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
