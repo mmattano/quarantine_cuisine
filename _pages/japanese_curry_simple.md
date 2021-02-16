@@ -19,7 +19,10 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-- ```python 1 + 1 # Adding two numbers``` things
+- <<engine='python', engine.path='python3'>>=
+1 + 1
+@
+ things
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
