@@ -1,0 +1,35 @@
+main:
+  - title: "Recipes"
+    url: recipes
+  - title: "About"
+    url: about
+  - title: "Contact"
+    url: contact
+
+# main links
+sitemap:
+  - title: Home
+    url: /
+  - title: "Recipes"
+    url: recipes
+    children:
+    - title: "Curries"
+      url: recipes/curries
+    - title: "Rice"
+      url: recipes/rice
+    - title: "Pasta"
+      url: recipes/pasta
+    - title: "Bread"
+      url: recipes/bread
+    - title: "Soups"
+      url: recipes/soups
+    - title: "Stews"
+      url: recipes/stews
+    - title: "Wrapped food"
+      url: recipes/wrapped_food
+    - title: "Sweets"
+      url: recipes/sweets
+    - title: "Legumes"
+      url: recipes/legumes
+    - title: "Other"
+      url: recipes/other
