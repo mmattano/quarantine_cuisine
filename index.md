@@ -9,6 +9,8 @@ toc: true
 
 Matthias Mattanovich 2020/2021
 
+<!-- # Welcome -->
+
 Some of these recipes were taken from other sources; I try to reference all of them.
 It’s a work in progress and will be updated irregularly.
 Everything is vegetarian and I’m trying to suggest suitable vegan alternatives as well.
