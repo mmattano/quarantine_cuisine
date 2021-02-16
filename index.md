@@ -1,4 +1,11 @@
-# Quarantine Cuisine - a collection
+---
+title: Quarantine Cuisine - a collection
+layout: single
+permalink: /
+sidebar:
+  nav: "sitemap"
+toc: true
+---
 
 Matthias Mattanovich 2020/2021
 
