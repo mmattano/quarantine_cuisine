@@ -19,7 +19,14 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-- <% 1 + 1 %> things
+<script type="text/python">
+from browser import document, alert
+
+def greet(event):
+    alert("Hello " + document["name-box"].value + "!")
+
+document["greet-button"].bind("click", greet)
+</script>
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
