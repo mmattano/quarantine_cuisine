@@ -6,7 +6,7 @@ sidebar:
   nav: "sitemap"
 toc: true
 ---
-
+<body onload="brython()">
 - Oil
 - 1 onion
 - 3 medium carrots
@@ -22,6 +22,9 @@ toc: true
 <script type="text/python">
 print(1 + 1)
 </script>
+<script type="text/python">
+1 + 2
+</script>
 
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
@@ -32,3 +35,4 @@ about 10 minutes. Cover with water and crumble in the curry mix cubes. Start pre
 the sides; boil some udon noodles or cook some rice. Add the chickpeas and boil down 
 until the mix starts to thicken lightly. Add the frozen peas and cook for another 
 few minutes. Serve and enjoy! Optionally sprinkle with sesame seeds or chopped scallion.
+</body>
