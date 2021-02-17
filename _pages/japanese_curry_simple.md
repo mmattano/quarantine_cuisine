@@ -19,6 +19,11 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
+
+{{ "adam!" | capitalize | prepend: "Hello " }}
+
+
+
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
 Fry until they start to turn translucent and then add the carrots and potatoes. 
