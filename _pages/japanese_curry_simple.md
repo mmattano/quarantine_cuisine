@@ -19,9 +19,7 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-{{ http://rouge.jneen.net/v3.26.0/python/cHJpbnQoMSArIDEp }}
-
-{{ puts "Hey hey, Ruby!"; }}
+{{ 4 | minus: 2 }}
 
 
 
