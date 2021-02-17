@@ -19,13 +19,10 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-{% highlight ruby %}
-puts "Hello, Ruby!";
-{% endhighlight %}
-{% puts "Hello, Ruby!"; %}
-{% highlight ruby %}
-http://rouge.jneen.net/v3.26.0/python/cHJpbnQoMSArIDEp
-{% endhighlight %}
+{{ http://rouge.jneen.net/v3.26.0/python/cHJpbnQoMSArIDEp }}
+
+{{ puts "Hello, Ruby!"; }}
+
 
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
