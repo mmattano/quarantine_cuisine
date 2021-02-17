@@ -21,7 +21,7 @@ toc: true
 
 {{ http://rouge.jneen.net/v3.26.0/python/cHJpbnQoMSArIDEp }}
 
-{{ puts "Hello, Ruby!"; }}
+{{ puts "Hey hey, Ruby!"; }}
 
 
 
