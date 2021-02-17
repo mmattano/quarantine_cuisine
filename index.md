@@ -1,6 +1,15 @@
-# Quarantine Cuisine - a collection
+---
+title: Quarantine Cuisine - a collection
+layout: single
+permalink: /
+sidebar:
+  nav: "sitemap"
+toc: true
+---
 
 Matthias Mattanovich 2020/2021
+
+<!-- # Welcome -->
 
 Some of these recipes were taken from other sources; I try to reference all of them.
 It’s a work in progress and will be updated irregularly.
