@@ -20,13 +20,9 @@ toc: true
 - Udon noodles or rice
 
 <script type="text/python">
-from browser import document, alert
-
-def greet(event):
-    alert("Hello " + document["name-box"].value + "!")
-
-document["greet-button"].bind("click", greet)
+print(1 + 1)
 </script>
+
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
