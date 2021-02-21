@@ -50,10 +50,7 @@ toc: true
 A
 Number of portions:
 
-<div class="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange" v-model.number="serving">
-  <p>Portions: <span id="demo"></span></p>
-  
+
 <p>- Oil</p>
 - <span>{{ serving * 0.5 }}</span> onion
 - 3 medium carrots
@@ -67,7 +64,9 @@ Number of portions:
 - Udon noodles or rice
 
 
-
+<div class="slidecontainer">
+  <input type="range" min="1" max="10" value="2" class="slider" id="myRange" v-model.number="serving">
+  <p>Portions: <span id="demo"></span></p>
 </div>
 
 <script>
