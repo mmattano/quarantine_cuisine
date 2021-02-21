@@ -143,7 +143,7 @@ $('.js-increaseService').on('click', function() {
   $('#servingInput').val(parseInt(currentServing) + 1)
   computeServing(parseInt(currentServing) + 1)
 })
-computeServing(1)
+computeServing(2)
 </script>
 
 
