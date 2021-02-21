@@ -19,7 +19,9 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-{{ 4 | minus: 2 }}
+<script>
+  7 + 9;  
+</script>
 
 
 
