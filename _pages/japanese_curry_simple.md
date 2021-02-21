@@ -74,8 +74,9 @@ toc: true
   <button class="js-increaseService">+</button>
 -->
 <div class="slidecontainer">
+  <label for="serving">A Number of portions: </label><span id="demo"></span><
   <input type="range" min="1" max="10" value="2" class="slider" id="servingInput">
-  <p>Portions: <span id="demo"></span></p>
+  <!--- <p>Portions: <span id="demo"></span></p> -->
 
   <div class="Recipe-IngredientList">
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1"> - <span></span> tbs oil</div>
