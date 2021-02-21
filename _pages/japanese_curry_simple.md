@@ -74,7 +74,7 @@ toc: true
   <button class="js-increaseService">+</button>
 -->
 <div class="slidecontainer">
-  <label for="serving">A Number of portions: </label><span id="demo"></span><
+  <label for="serving">A Number of portions: </label><span id="multiply"></span><
   <input type="range" min="1" max="10" value="2" class="slider" id="servingInput">
   <!--- <p>Portions: <span id="demo"></span></p> -->
 
@@ -132,16 +132,6 @@ var computeServing = function(serving) {
 }
 $('#servingInput').on('change', function() {
   computeServing($(this).val())
-})
-$('.js-decreaseService').on('click', function() {
-  var currentServing = $('#servingInput').val()
-  $('#servingInput').val(currentServing - 1)
-  computeServing(currentServing - 1)
-})
-$('.js-increaseService').on('click', function() {
-  var currentServing = $('#servingInput').val()
-  $('#servingInput').val(parseInt(currentServing) + 1)
-  computeServing(parseInt(currentServing) + 1)
 })
 computeServing(2)
 </script>
