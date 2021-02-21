@@ -48,21 +48,21 @@ toc: true
 
 
 
-.Recipe-IngredientList {
-  width: 400px;
-  border-radius: 3px;
-  padding: 5px;
-  margin-top: 5px;
-}
-.Recipe-Ingredient {
-  padding: 5px 0;
-}
-.Recipe-Ingredient:last-child {
-  border-bottom: none;
-}
-.Recipe-Ingredient span {
-  font-weight: 600;
-}
+//.Recipe-IngredientList {
+//  width: 400px;
+//  border-radius: 3px;
+//  padding: 5px;
+//  margin-top: 5px;
+//}
+//.Recipe-Ingredient {
+//  padding: 5px 0;
+//}
+//.Recipe-Ingredient:last-child {
+//  border-bottom: none;
+//}
+//.Recipe-Ingredient span {
+//  font-weight: 600;
+//}
 </style>
 
 
@@ -74,7 +74,7 @@ toc: true
   <button class="js-increaseService">+</button>
 -->
 <div class="slidecontainer">
-  <label for="serving">A Number of portions: </label><span id="multiply"></span><
+  <label for="serving">A Number of portions: </label><span id="multiply"></span>
   <input type="range" min="1" max="10" value="2" class="slider" id="servingInput">
   <!--- <p>Portions: <span id="demo"></span></p> -->
 
