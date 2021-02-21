@@ -46,10 +46,10 @@ toc: true
   cursor: pointer;
 }
 </style>
-B
+C
 
 - Oil
-- <span>{{ multiply * 0.5 }}</span> onion
+- <span id="multiply">{{ multiply * 0.5 }}</span> onion
 - 3 medium carrots
 - 1.5 large potatoes
 - 3 cloves of garlic
