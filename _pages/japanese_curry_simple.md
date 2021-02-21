@@ -89,8 +89,6 @@ new Vue({
 })
 </script>
 <div id="Vue">
-  <label for="serving">Portions :</label>
-  <input type="number" v-model.number="serving">
   <div class="Recipe-IngredientList">
     <div class="Recipe-Ingredient">Farine : <span>{{ serving * 200 }}</span>g</div>
     <div class="Recipe-Ingredient">Oeuf : <span>{{ serving * 2 }}</span></div>
