@@ -47,15 +47,15 @@ toc: true
 }
 </style>
 
-
+A
 Number of portions:
 
 <div class="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
+  <input type="range" min="1" max="10" value="2" class="slider" id="myRange" v-model.number="serving">
   <p>Portions: <span id="demo"></span></p>
   
-- Oil
-- <span>{{ myRange * 0.5 }}</span> onion
+<p>- Oil</p>
+- <span>{{ serving * 0.5 }}</span> onion
 - 3 medium carrots
 - 1.5 large potatoes
 - 3 cloves of garlic
