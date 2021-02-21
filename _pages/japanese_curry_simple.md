@@ -6,19 +6,6 @@ sidebar:
   nav: "sitemap"
 toc: true
 ---
-
-- Oil
-- <span>{{ <span id="multiply"></span> * 0.5 }}</span> onion
-- 3 medium carrots
-- 1.5 large potatoes
-- 3 cloves of garlic
-- Water
-- 3 S&B Golden Curry mix cubes
-- ½ cup of frozen peas
-- Salt
-- Pepper
-- Udon noodles or rice
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .slidecontainer {
@@ -59,7 +46,21 @@ toc: true
   cursor: pointer;
 }
 </style>
-<body>
+
+
+- Oil
+- {{ multiply * 0.5 }} onion
+- 3 medium carrots
+- 1.5 large potatoes
+- 3 cloves of garlic
+- Water
+- 3 S&B Golden Curry mix cubes
+- ½ cup of frozen peas
+- Salt
+- Pepper
+- Udon noodles or rice
+
+
 
 Number of portions:
 
