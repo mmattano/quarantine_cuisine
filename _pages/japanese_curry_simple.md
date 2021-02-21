@@ -18,7 +18,7 @@ toc: true
   width: 100%;
   height: 15px;
   border-radius: 5px;
-  background: #ffd4d4;
+  background: #cfcfcf;
   outline: none;
   opacity: 0.7;
   -webkit-transition: .2s;
@@ -35,7 +35,7 @@ toc: true
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #b5fff8;
+  background: #ffffff;
   cursor: pointer;
 }
 
@@ -43,7 +43,7 @@ toc: true
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #f2f2f2;
+  background: #ffffff;
   cursor: pointer;
 }
 </style>
