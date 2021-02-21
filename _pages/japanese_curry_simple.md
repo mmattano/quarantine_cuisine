@@ -82,7 +82,7 @@ new Vue({
   el: '#Vue',
   data() {
     return {
-      slider.oninput = function() {serving.innerHTML = this.value;}
+      serving.innerHTML = this.value
     }
   }
 })
