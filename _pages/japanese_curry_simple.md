@@ -74,7 +74,7 @@ toc: true
   <button class="js-increaseService">+</button>
 -->
 <div class="slidecontainer">
-  <label for="serving">A Number of portions: </label><span id="multiply"></span>
+  <label for="serving">A Number of portions: <span id="multiply"></span></label>
   <input type="range" min="1" max="10" value="2" class="slider" id="servingInput">
   <!--- <p>Portions: <span id="demo"></span></p> -->
 
