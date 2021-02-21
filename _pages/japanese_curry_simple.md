@@ -19,9 +19,9 @@ toc: true
 - Pepper
 - Udon noodles or rice
 
-<script> console.log(7 + 9) </script>
+<script> document.write(5 + 6); </script>
 
-F
+D
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
