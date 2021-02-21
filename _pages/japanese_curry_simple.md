@@ -47,8 +47,13 @@ toc: true
 }
 </style>
 
-F
 
+Number of portions:
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
+  <p>Portions: <span id="demo"></span></p>
+  
 - Oil
 - <span>{{ myRange * 0.5 }}</span> onion
 - 3 medium carrots
@@ -63,11 +68,6 @@ F
 
 
 
-Number of portions:
-
-<div class="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
-  <p>Portions: <span id="demo"></span></p>
 </div>
 
 <script>
