@@ -59,13 +59,12 @@ toc: true
   cursor: pointer;
 }
 </style>
-</head>
 <body>
 
-<h4>Number of portions:</h4>
+Number of portions:
 
 <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
   <p>Portions: <span id="demo"></span></p>
 </div>
 
@@ -78,7 +77,7 @@ slider.oninput = function() {
   output.innerHTML = this.value;
 }
 </script>
-X
+Y
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
