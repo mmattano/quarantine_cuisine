@@ -88,7 +88,7 @@ toc: true
     <div class="Recipe-Ingredient js-recipeIngredient"> - some water, salt and pepper</div>
   </div>
 </div>
-
+<!---
 - Oil
 - <span>{{ serving * 0.5 }}</span> onion
 - 3 medium carrots
@@ -100,41 +100,27 @@ toc: true
 - Salt
 - Pepper
 - Udon noodles or rice
-
+-->
 <!-- https://codepen.io/Erilan/pen/qQWpqa -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<!---
 <div class="slidecontainer">
   <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
   <p>Portions: <span id="demo"></span></p>
 </div>
-
+-->
 <script>
 var slider = document.getElementById("myRange");
 
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
 slider.oninput = function() {output.innerHTML = this.value;}
+
 var multiply = document.getElementById("multiply");
 multiply.innerHTML = slider.value;
 slider.oninput = function() {multiply.innerHTML = this.value;}
-new Vue({
-  el: '#Vue',
-  data() {
-    return {
-      serving.innerHTML = this.value
-    }
-  }
-})
 </script>
-<div id="Vue">
-  <div class="Recipe-IngredientList">
-    <div class="Recipe-Ingredient">Farine : <span>{{ serving * 200 }}</span>g</div>
-    <div class="Recipe-Ingredient">Oeuf : <span>{{ serving * 2 }}</span></div>
-    <div class="Recipe-Ingredient">Lait : <span>{{ serving * 150 }}</span>mL</div>
-    <div class="Recipe-Ingredient">Lardon : <span>{{ serving * 50 }}</span>g</div>
-  </div>
-</div>
+
 
 
 
