@@ -49,19 +49,19 @@ toc: true
 
 
 .Recipe-IngredientList {
-  // width: 400px;
-  // border-radius: 3px;
-  // padding: 5px;
-  // margin-top: 5px;
+  width: 400px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 5px;
 }
 .Recipe-Ingredient {
-  // padding: 5px 0;
+  padding: 5px 0;
 }
 .Recipe-Ingredient:last-child {
-  // border-bottom: none;
+  border-bottom: none;
 }
 .Recipe-Ingredient span {
-  // font-weight: 600;
+  font-weight: 600;
 }
 </style>
 
@@ -122,6 +122,29 @@ multiply.innerHTML = slider.value;
 slider.oninput = function() {multiply.innerHTML = this.value;}
 </script>
 
+
+<script>
+// Recipe calculator with jquery
+var computeServing = function(serving) {
+  $('.js-recipeIngredient').each(function(index, item) {
+    $(item).children('span').html($(item)[0].dataset.basevalue * serving)
+  })
+}
+$('#servingInput').on('change', function() {
+  computeServing($(this).val())
+})
+$('.js-decreaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(currentServing - 1)
+  computeServing(currentServing - 1)
+})
+$('.js-increaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(parseInt(currentServing) + 1)
+  computeServing(parseInt(currentServing) + 1)
+})
+computeServing(1)
+</script>
 
 
 
