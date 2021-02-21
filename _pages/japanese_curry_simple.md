@@ -78,9 +78,9 @@ multiply.innerHTML = slider.value;
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
-slider.oninput = function() {
-  multiply.innerHTML = this.value;
-}
+// slider.oninput = function() {
+//   multiply.innerHTML = this.value;
+// }
 </script>
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
