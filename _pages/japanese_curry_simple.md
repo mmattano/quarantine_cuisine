@@ -47,10 +47,10 @@ toc: true
 }
 </style>
 
-E
-<input type="number" v-model.number="multiply">
+F
+
 - Oil
-- <div class="Recipe-Ingredient"><span>{{ multiply * 0.5 }}</span> onion</div>
+- <span>{{ myRange * 0.5 }}</span> onion
 - 3 medium carrots
 - 1.5 large potatoes
 - 3 cloves of garlic
