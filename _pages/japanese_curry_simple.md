@@ -7,86 +7,86 @@ sidebar:
 toc: true
 ---
 
-- Oil
-- {{ <span id="multiply"></span> | times: 0.5 }} onion
-- 3 medium carrots
-- 1.5 large potatoes
-- 3 cloves of garlic
-- Water
-- 3 S&B Golden Curry mix cubes
-- ½ cup of frozen peas
-- Salt
-- Pepper
-- Udon noodles or rice
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+### Ingredients
+
+<!-- https://codepen.io/Erilan/pen/qQWpqa -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <style>
-.slidecontainer {
-  width: 100%;
+.Recipe-IngredientList {
+  width: 400px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 5px;
 }
-
-.slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 15px;
-  border-radius: 5px;
-  background: #ffd4d4;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+.Recipe-Ingredient {
+  padding: 5px 0;
 }
-
-.slider:hover {
-  opacity: 1;
+.Recipe-Ingredient:last-child {
+  border-bottom: none;
 }
-
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #b5fff8;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #f2f2f2;
-  cursor: pointer;
+.Recipe-Ingredient span {
+  font-weight: 600;
 }
 </style>
-<body>
 
-Number of portions:
+A Number of portions:
 
-<div class="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
-  <p>Portions: <span id="demo"></span></p>
+
+<div>
+  <label for="serving">Portions :</label>
+  <input type="number" id="servingInput" value="1">
+  <button class="js-decreaseService">-</button>
+  <button class="js-increaseService">+</button>
+
+  <div class="Recipe-IngredientList">
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1"> - <span></span> tbs oil</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1"> - <span></span> onion</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="3"> - <span></span> medium carrots</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1.5"> - <span></span> large potatoes</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="3"> - <span></span> gloves of garlic</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="3"> - <span></span> S&B Golden Curry mix cubes</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.5"> - <span></span> cup of frozen peas</div>
+    <div class="Recipe-Ingredient js-recipeIngredient"> - some water, salt and peper</div>
+  </div>
 </div>
 
+
+<p>- udon noodles or rice</p>
+
+
+
 <script>
-var slider = document.getElementById("myRange");
-
-var output = document.getElementById("demo");
-output.innerHTML = slider.value;
-slider.oninput = function() {
-  output.innerHTML = this.value;
+// Recipe calculator with jquery
+var computeServing = function(serving) {
+  $('.js-recipeIngredient').each(function(index, item) {
+    $(item).children('span').html($(item)[0].dataset.basevalue * serving)
+  })
 }
-
-var multiply = document.getElementById("multiply");
-multiply.innerHTML = slider.value;
-slider.oninput = function() {multiply.innerHTML = this.value;}
+$('#servingInput').on('change', function() {
+  computeServing($(this).val())
+})
+$('.js-decreaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(currentServing - 1)
+  computeServing(currentServing - 1)
+})
+$('.js-increaseService').on('click', function() {
+  var currentServing = $('#servingInput').val()
+  $('#servingInput').val(parseInt(currentServing) + 1)
+  computeServing(parseInt(currentServing) + 1)
+})
+computeServing(1)
 </script>
 
-Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
-them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
-Fry until they start to turn translucent and then add the carrots and potatoes. 
-Grate the garlic and add as well. Cook everything until things start turning soft, 
-about 10 minutes. Cover with water and crumble in the curry mix cubes. Start preparing 
-the sides; boil some udon noodles or cook some rice. Add the chickpeas and boil down 
-until the mix starts to thicken lightly. Add the frozen peas and cook for another 
+
+
+Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut
+them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions.
+Fry until they start to turn translucent and then add the carrots and potatoes.
+Grate the garlic and add as well. Cook everything until things start turning soft,
+about 10 minutes. Cover with water and crumble in the curry mix cubes. Start preparing
+the sides; boil some udon noodles or cook some rice. Add the chickpeas and boil down
+until the mix starts to thicken lightly. Add the frozen peas and cook for another
 few minutes. Serve and enjoy! Optionally sprinkle with sesame seeds or chopped scallion.
