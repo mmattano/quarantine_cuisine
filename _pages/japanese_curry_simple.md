@@ -81,6 +81,20 @@ multiply.innerHTML = slider.value;
 slider.oninput = function() {multiply.innerHTML = this.value;}
 </script>
 
+
+<div id="Vue">
+  <label for="serving">Portions :</label>
+  <input type="number" v-model.number="serving">
+  <div class="Recipe-IngredientList">
+    <div class="Recipe-Ingredient">Farine : <span>{{ serving * 200 }}</span>g</div>
+    <div class="Recipe-Ingredient">Oeuf : <span>{{ serving * 2 }}</span></div>
+    <div class="Recipe-Ingredient">Lait : <span>{{ serving * 150 }}</span>mL</div>
+    <div class="Recipe-Ingredient">Lardon : <span>{{ serving * 50 }}</span>g</div>
+  </div>
+</div>
+
+
+
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
 Fry until they start to turn translucent and then add the carrots and potatoes. 
