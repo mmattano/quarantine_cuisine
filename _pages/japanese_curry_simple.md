@@ -65,7 +65,7 @@ Number of portions:
 
 
 <div class="slidecontainer">
-  <input type="range" min="1" max="10" value="2" class="slider" id="myRange" v-model.number="serving">
+  <input type="range" min="1" max="10" value="2" class="slider" id="myRange">
   <p>Portions: <span id="demo"></span></p>
 </div>
 
