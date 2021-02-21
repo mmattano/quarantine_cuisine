@@ -51,7 +51,7 @@ A
 Number of portions:
 
 
-<p>- Oil</p>
+- Oil
 - <span>{{ serving * 0.5 }}</span> onion
 - 3 medium carrots
 - 1.5 large potatoes
