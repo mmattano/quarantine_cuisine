@@ -8,7 +8,7 @@ toc: true
 ---
 
 - Oil
-- 1 onion
+- <span id="multiply"></span> onion
 - 3 medium carrots
 - 1.5 large potatoes
 - 3 cloves of garlic
@@ -72,12 +72,16 @@ Number of portions:
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
+var multiply = document.getElementById("multiply");
+multiply.innerHTML = slider.value;
 
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
+slider.oninput = function() {
+  multiply.innerHTML = this.value;
+}
 </script>
-Y
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut 
 them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. 
