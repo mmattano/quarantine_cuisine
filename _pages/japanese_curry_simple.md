@@ -36,6 +36,7 @@ toc: true
   height: 25px;
   border-radius: 50%;
   background: #ffffff;
+  border-color: #4d4d4d;
   cursor: pointer;
 }
 
@@ -44,6 +45,7 @@ toc: true
   height: 25px;
   border-radius: 50%;
   background: #ffffff;
+  border-color: #4d4d4d;
   cursor: pointer;
 }
 </style>
