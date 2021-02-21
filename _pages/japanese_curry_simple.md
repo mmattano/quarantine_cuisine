@@ -20,7 +20,7 @@ toc: true
 - Udon noodles or rice
 
 <script>
-  7 + 9;  
+  console.log(7 + 9);  
 </script>
 
 
