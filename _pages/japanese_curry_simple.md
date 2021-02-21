@@ -8,7 +8,7 @@ toc: true
 ---
 
 - Oil
-- {{ <span id="multiply"></span> | times: 0.5 }} onion
+- <span>{{ <span id="multiply"></span> * 0.5 }}</span> onion
 - 3 medium carrots
 - 1.5 large potatoes
 - 3 cloves of garlic
@@ -73,10 +73,7 @@ var slider = document.getElementById("myRange");
 
 var output = document.getElementById("demo");
 output.innerHTML = slider.value;
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
-
+slider.oninput = function() {output.innerHTML = this.value;}
 var multiply = document.getElementById("multiply");
 multiply.innerHTML = slider.value;
 slider.oninput = function() {multiply.innerHTML = this.value;}
