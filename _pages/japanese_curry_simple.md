@@ -79,9 +79,15 @@ slider.oninput = function() {output.innerHTML = this.value;}
 var multiply = document.getElementById("multiply");
 multiply.innerHTML = slider.value;
 slider.oninput = function() {multiply.innerHTML = this.value;}
+new Vue({
+  el: '#Vue',
+  data() {
+    return {
+      serving: multiply
+    }
+  }
+})
 </script>
-
-
 <div id="Vue">
   <label for="serving">Portions :</label>
   <input type="number" v-model.number="serving">
