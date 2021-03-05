@@ -50,6 +50,8 @@ toc: true
 }
 </style>
 
+![Mapo_in_wok](Figures/Mo_mapo.jpg) ![Mapo_in_bowl](Figures/Mapo.jpg)
+
 <div class="slidecontainer">
   <label for="serving">A Number of portions: <span id="multiply"></span></label>
   <input type="range" min="1" max="10" value="2" class="slider" id="servingInput">
