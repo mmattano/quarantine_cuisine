@@ -7,14 +7,14 @@ sidebar:
 toc: true
 ---
 
-[Mapo Tofu](recipes/rice/mapo_tofu)
+[Mapo Tofu](rice/mapo_tofu)
 
-[Katsu Maki](recipes/rice/katsu_maki)
+[Katsu Maki](rice/katsu_maki)
 
-[Fried rice](recipes/rice/fried_rice)
+[Fried rice](rice/fried_rice)
 
-[Risotto (carrots and peas)](recipes/rice/risotto_carrots_and_peas)
+[Risotto (carrots and peas)](rice/risotto_carrots_and_peas)
 
-[Risotto (mushrooms)](recipes/rice/risotto_mushrooms)
+[Risotto (mushrooms)](rice/risotto_mushrooms)
 
-[Tamago Kake Gohan](recipes/rice/tamago_kake_gohan)
+[Tamago Kake Gohan](rice/tamago_kake_gohan)
