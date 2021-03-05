@@ -9,7 +9,7 @@ toc: true
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-<link rel="stylesheet" href="css/slider_style.css">
+<link rel="stylesheet" href="/css/slider_style.css">
 </style>
 
 <div class="slidecontainer">
@@ -31,7 +31,7 @@ toc: true
 
 <!-- https://codepen.io/Erilan/pen/qQWpqa -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/portion_calc.js"></script>
+<script src="/js/portion_calc.js"></script>
 <script>
 computeServing(2)
 </script>
