@@ -64,7 +64,7 @@ toc: true
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.75"> - <span></span> tablespoons Sichuan peppercorns (coarsely ground, reserve a bit for garnish at the end)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1.5"> - <span></span> tablespoons ginger (finely minced)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1.5"> - <span></span> tablespoons garlic (finely minced)</div>
-    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.5"> - <span></span> tablespoon fermented black beans</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.5"> - <span></span> tablespoons fermented black beans</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="2.5"> - <span></span> Thai bird chilies (thinly sliced)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="55"> - <span></span> g shiitake mushrooms (finely chopped)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1"> - <span></span> tablespoons spicy bean sauce (depending on your desired salt/spice levels)</div>
@@ -73,8 +73,8 @@ toc: true
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="80"> - <span></span> mL water (or vegetable or mushroom broth)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1"> - <span></span> teaspoons cornstarch (mixed with half the amount of water)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="200"> - <span></span> g silken tofu (or soft tofu, cut into 1-inch cubes)</div>
-    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.125"> - <span></span> teaspoon sesame oil</div>
-    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.125"> - <span></span> teaspoon sugar</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.125"> - <span></span> teaspoons sesame oil</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.125"> - <span></span> teaspoons sugar</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.5"> - <span></span> scallion (finely chopped)</div>
   </div>
 </div>
