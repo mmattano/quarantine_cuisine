@@ -67,7 +67,7 @@ toc: true
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.5"> - <span></span> tablespoon chili oil</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="80"> - <span></span> mL cup water (or vegetable or mushroom broth)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="1"> - <span></span> teaspoons cornstarch (mixed with half the amount of water)</div>
-    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="200"> - <span></span> pound silken tofu (or soft tofu, cut into 1-inch cubes)</div>
+    <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="200"> - <span></span> g silken tofu (or soft tofu, cut into 1-inch cubes)</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.125"> - <span></span> teaspoon sesame oil</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.125"> - <span></span> teaspoon sugar</div>
     <div class="Recipe-Ingredient js-recipeIngredient" data-baseValue="0.5"> - <span></span> scallion (finely chopped)</div>
