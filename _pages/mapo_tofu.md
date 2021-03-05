@@ -98,6 +98,7 @@ $('#servingInput').on('change', function() {
 computeServing(2)
 </script>
 
+
 First, cube the tofu and then blanch it.
 In a wok over medium low heat, add the vegetable oil and ground Sichuan peppercorns (remember to reserve ¼ teaspoon for garnishing the dish at the end).
 Cook for 30 seconds, and add the ginger. Cook for another 1 minute and add the garlic. Cook for another 1 minute. Add the black beans, and chilies. Cook for another 1-2 minutes.
