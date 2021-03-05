@@ -31,8 +31,7 @@ toc: true
 
 <!-- https://codepen.io/Erilan/pen/qQWpqa -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="/js/portion_calc.js"></script>
-<script>
+<script src="/js/portion_calc.js">
 computeServing(2)
 </script>
 
