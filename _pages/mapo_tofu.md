@@ -50,7 +50,10 @@ toc: true
 }
 </style>
 
-![Mapo_in_wok](Figures/Mo_mapo.jpg) ![Mapo_in_bowl](Figures/Mapo.jpg)
+![Mapo_in_wok](Figures/Mo_mapo.jpg)
+![Mapo_in_bowl](Figures/Mapo.jpg)
+
+## Ingredients
 
 <div class="slidecontainer">
   <label for="serving">A Number of portions: <span id="multiply"></span></label>
@@ -98,6 +101,7 @@ $('#servingInput').on('change', function() {
 computeServing(2)
 </script>
 
+## Instructions
 
 First, cube the tofu and then blanch it.
 In a wok over medium low heat, add the vegetable oil and ground Sichuan peppercorns (remember to reserve ¼ teaspoon for garnishing the dish at the end).
