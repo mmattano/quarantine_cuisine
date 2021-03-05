@@ -9,45 +9,7 @@ toc: true
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.slidecontainer {
-  width: 100%;
-}
-
-.slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 15px;
-  border-radius: 5px;
-  background: #cfcfcf;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-.slider:hover {
-  opacity: 1;
-}
-
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #ffffff;
-  border-color: #4d4d4d;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background: #ffffff;
-  border-color: #4d4d4d;
-  cursor: pointer;
-}
+<link rel="stylesheet" href="slider_style.css">
 </style>
 
 <div class="slidecontainer">
@@ -88,6 +50,5 @@ $('#servingInput').on('change', function() {
 })
 computeServing(2)
 </script>
-<p></p>
 
 Cut the onion into slices from tip to toe. Peel the carrots and the potatoes and cut them into thumb tip sized cubes. Heat up some oil in a large pan and add the onions. Fry until they start to turn translucent and then add the carrots and potatoes. Grate the garlic and add as well. Cook everything until things start turning soft, about 10 minutes. Cover with water and crumble in the curry mix cubes. Start preparing the sides; boil some udon noodles or cook some rice. Boil down until the mix starts to thicken lightly. Add the frozen peas and cook for another few minutes. Serve and enjoy! Optionally sprinkle with sesame seeds or chopped scallion.
