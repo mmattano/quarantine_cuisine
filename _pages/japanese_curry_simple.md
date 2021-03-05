@@ -9,7 +9,7 @@ toc: true
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-<link rel="stylesheet" href="slider_style.css">
+<link rel="stylesheet" href="css/slider_style.css">
 </style>
 
 <div class="slidecontainer">
