@@ -9,7 +9,7 @@ toc: true
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-<link rel="stylesheet" href="slider_style.css">
+<link rel="stylesheet" href="/css/slider_style.css">
 </style>
 
 <div class="slidecontainer">
@@ -31,23 +31,8 @@ toc: true
 
 <!-- https://codepen.io/Erilan/pen/qQWpqa -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<script src="/js/portion_calc.js"></script>
 <script>
-var slider = document.getElementById("servingInput");
-
-var multiply = document.getElementById("multiply");
-multiply.innerHTML = slider.value;
-slider.oninput = function() {multiply.innerHTML = this.value;}
-
-// Recipe calculator with jquery
-var computeServing = function(serving) {
-  $('.js-recipeIngredient').each(function(index, item) {
-    $(item).children('span').html($(item)[0].dataset.basevalue * serving)
-  })
-}
-$('#servingInput').on('change', function() {
-  computeServing($(this).val())
-})
 computeServing(2)
 </script>
 
