@@ -50,10 +50,10 @@ toc: true
 }
 </style>
 
-[[Mapo tofu in wok](Figures/Mo_mapo.jpg =200)](Figures/Mo_mapo.jpg)
+[![Mapo tofu in wok](Figures/Mo_mapo.jpg)](Figures/Mo_mapo.jpg)
 
 
-[[Mapo tofu in a bowl](Figures/Mapo.jpg =200)](Figures/Mapo.jpg)
+[![Mapo tofu in a bowl](Figures/Mapo.jpg)](Figures/Mapo.jpg)
 
 ## Ingredients
 
