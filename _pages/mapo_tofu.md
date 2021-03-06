@@ -50,9 +50,9 @@ toc: true
 }
 </style>
 
-<img src="https://raw.githubusercontent.com/mmattano/quarantine_cuisine/gh-pages/_pages/Figures/Mo_mapo.jpg" width="200">
+[<img title="Mapo tofu in wok" alt="Mapo tofu in wok should be here :/" src="https://raw.githubusercontent.com/mmattano/quarantine_cuisine/gh-pages/_pages/Figures/Mo_mapo.jpg" width="300">](https://raw.githubusercontent.com/mmattano/quarantine_cuisine/gh-pages/_pages/Figures/Mo_mapo.jpg)
 
-<img src="https://raw.githubusercontent.com/mmattano/quarantine_cuisine/gh-pages/_pages/Figures/Mapo.jpg" width="200">
+[<img title="Mapo tofu in bowl" alt="Mapo tofu in bowl should be here :/" src="https://raw.githubusercontent.com/mmattano/quarantine_cuisine/gh-pages/_pages/Figures/Mapo.jpg" width="300">](https://raw.githubusercontent.com/mmattano/quarantine_cuisine/gh-pages/_pages/Figures/Mapo.jpg)
 
 ## Ingredients
 
