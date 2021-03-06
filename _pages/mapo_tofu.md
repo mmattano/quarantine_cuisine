@@ -106,7 +106,7 @@ computeServing(2)
 
 First, cube the tofu and then blanch it.
 In a wok over medium low heat, add the vegetable oil and ground Sichuan peppercorns (remember to reserve some for garnishing the dish at the end).
-Cook for 30 seconds, and add the ginger. Cook for another 1 minute and add the garlic. Cook for another 1 minute. Add the black beans, and chilies. Cook for another 1-2 minutes.
+Cook for 30 seconds, and add the ginger. Cook for another minute and add the garlic. Cook for another minute. Add the black beans, and chilies. Cook for another 1-2 minutes.
 Turn up the heat to medium, and add the mushrooms. Cook until the mushrooms are cooked down and slightly caramelized, about 5 minutes.
 Add the spicy bean sauce, chili oil and light soy sauce to the mixture and stir it in well. Turn up the heat to high, and add the water or broth and stir. Bring the mixture up to a simmer, and allow to bubble for 1 minute.
 Stir the cornstarch and water mixture to make sure the cornstarch is dissolved, and add it to the sauce. Allow the sauce to thicken (if it gets too thick, splash in more water or stock). If the sauce is too thin, make a little more cornstarch slurry and add it in. There will be variations depending on how high your heat is.
