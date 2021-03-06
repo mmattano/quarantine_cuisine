@@ -50,8 +50,8 @@ toc: true
 }
 </style>
 
-![Mapo_in_wok](Figures/Mo_mapo.jpg)
-![Mapo_in_bowl](Figures/Mapo.jpg)
+![<img src="Figures/Mo_mapo.jpg" width="250"/>](Figures/Mo_mapo.jpg)
+![<img src="Figures/Mapo.jpg" width="250"/>](Figures/Mapo.jpg)
 
 ## Ingredients
 
