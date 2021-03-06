@@ -50,10 +50,10 @@ toc: true
 }
 </style>
 
-[[[<img src="Figures/Mo_mapo.jpg" width="200"/>]]](Figures/Mo_mapo.jpg)
+[[<img src="Figures/Mo_mapo.jpg" width="200"/>]](Figures/Mo_mapo.jpg)
 
 
-[[[<img src="Figures/Mapo.jpg" width="200"/>]]](Figures/Mapo.jpg)
+[[<img src="Figures/Mapo.jpg" width="200"/>]](Figures/Mapo.jpg)
 
 ## Ingredients
 
